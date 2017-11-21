@@ -22,7 +22,7 @@ public class Controller {
         System.out.println("--------------------docker:"+docker);
         Map map = new HashMap();
         map.put("hello","world");
-        map.put("version",1.0);
+        map.put("version",1.1);
         map.put("docker",docker);
         long startTime=System.currentTimeMillis();
         int count = threadCount;
